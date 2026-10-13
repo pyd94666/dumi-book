@@ -1,9 +1,9 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-book-test'; // 项目名
+const repo = 'dumi-book'; // 仓库名，需与 GitHub 仓库名一致
 
 export default defineConfig({
-  title: 'dumi-book-test',
+  title: 'dumi-book',
   mode: 'site',
   devServer: {
     port: 1995, // 自定义端口号
