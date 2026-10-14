@@ -1,14 +1,11 @@
 {
   "private": true,
-  "name": "dumi-app",
+  "name": "dumi-book",
   "scripts": {
     "start": "dumi dev",
     "build": "dumi build",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\""
   },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
@@ -21,9 +18,20 @@
     ]
   },
   "devDependencies": {
-    "dumi": "^1.0.14",
+    "dumi": "^2.4.50",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
+    "typescript": "^7.0.2",
     "yorkie": "^2.0.0"
+  },
+  "dependencies": {
+    "@lobehub/fluent-emoji": "^4.0.0",
+    "@lobehub/icons": "^4.0.0",
+    "@lobehub/ui": "^4.3.3",
+    "antd": "^6.1.1",
+    "dumi-theme-lobehub": "^5.0.0",
+    "motion": "^12.23.26",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
